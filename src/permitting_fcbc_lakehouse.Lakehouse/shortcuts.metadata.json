@@ -1,35 +1,71 @@
 [
   {
-    "name": "ats_athn_on_hold_reasons_code",
-    "path": "/Tables/testing_after_connection_change",
+    "name": "vfcbc_office",
+    "path": "/Tables/vfcbc_replication",
     "target": {
       "type": "OneLake",
       "oneLake": {
-        "path": "Tables/ats_replication/ats_athn_on_hold_reasons_code",
+        "path": "Tables/vfcbc_replication/vfcbc_office",
         "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
         "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
       }
     }
   },
   {
-    "name": "ats_athn_close_reason_codes_1",
-    "path": "/Tables/testing_after_connection_change",
+    "name": "vfcbc_businessarea",
+    "path": "/Tables/vfcbc_replication",
     "target": {
       "type": "OneLake",
       "oneLake": {
-        "path": "Tables/ats_replication/ats_athn_close_reason_codes",
+        "path": "Tables/vfcbc_replication/vfcbc_businessarea",
         "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
         "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
       }
     }
   },
   {
-    "name": "ats_athn_close_reason_codes",
-    "path": "/Tables/testing_after_connection_change",
+    "name": "vfcbc_business",
+    "path": "/Tables/vfcbc_replication",
     "target": {
       "type": "OneLake",
       "oneLake": {
-        "path": "Tables/ats_replication/ats_athn_close_reason_codes",
+        "path": "Tables/vfcbc_replication/vfcbc_business",
+        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
+        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+      }
+    }
+  },
+  {
+    "name": "vfcbc_atsnumber_vw",
+    "path": "/Tables/vfcbc_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/vfcbc_replication/vfcbc_atsnumber_vw",
+        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
+        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+      }
+    }
+  },
+  {
+    "name": "vfcbc_application_vw",
+    "path": "/Tables/vfcbc_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/vfcbc_replication/vfcbc_application_vw",
+        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
+        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+      }
+    }
+  },
+  {
+    "name": "vfcbc_application",
+    "path": "/Tables/vfcbc_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/vfcbc_replication/vfcbc_application",
         "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
         "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
       }
@@ -228,336 +264,12 @@
     }
   },
   {
-    "name": "wma_atis_waterjob_combined_mv",
-    "path": "/Tables/permitting",
+    "name": "ereferral_replication",
+    "path": "/Tables",
     "target": {
       "type": "OneLake",
       "oneLake": {
-        "path": "Tables/wma_replication/atis_waterjob_combined_mv",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_office",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_office",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_crownlandstenureapparea",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_crownlandstenureapparea",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_businessarea",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_businessarea",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_business",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_business",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_atsnumber_vw",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_atsnumber_vw",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "tantilis_ta_stages",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_stages",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "fta_aac_file_type_code",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/fta_replication/fta_aac_file_type_code",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "er_authorization_refferal",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/er_replication/er_authorization_refferal_odb_test",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "er_authorization_referral",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ereferral_replication/er_authorization_referral",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "er_authorization_1",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ereferral_replication/er_authorization",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "er_authorization",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/er_replication/er_authorization",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "er_agency",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ereferral_replication/er_agency",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_subregional_offices",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_subregional_offices",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_projects",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_projects",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_project_client_xref",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_project_client_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_partner_agencies",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_partner_agencies",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_mfr_project_xref",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_mfr_project_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_enquiry_type_codes",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_enquiry_type_codes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_enquiry_method_codes",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_enquiry_method_codes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_enqry_partner_agency_xref",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_enqry_partner_agency_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_enqry_enqry_type_cd_xref",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_enqry_enqry_type_cd_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_enqry_enqry_mthd_cds_xref",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_enqry_enqry_mthd_cds_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_avg_processing_time_vw",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_avg_processing_time_vw",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_authorizations_on_hold",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_authorizations_on_hold",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_authorizations",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_authorizations",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ats_athn_close_reason_codes",
-    "path": "/Tables/permitting",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/ats_replication/ats_athn_close_reason_codes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "rrs_resource_road_client_sdw_test",
-    "path": "/Tables/ats_replication",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/rrs_replication/rrs_resource_road_client_sdw_test",
+        "path": "Tables/ereferral_replication",
         "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
         "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
       }
