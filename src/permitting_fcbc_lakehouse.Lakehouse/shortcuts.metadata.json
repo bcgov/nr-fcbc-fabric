@@ -264,6 +264,18 @@
     }
   },
   {
+    "name": "lexis_replication",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/lexis_replication",
+        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
+        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+      }
+    }
+  },
+  {
     "name": "ereferral_replication",
     "path": "/Tables",
     "target": {
