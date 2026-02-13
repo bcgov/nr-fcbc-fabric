@@ -1,277 +1,13 @@
 [
   {
-    "name": "vfcbc_office",
-    "path": "/Tables/vfcbc_replication",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_office",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_businessarea",
-    "path": "/Tables/vfcbc_replication",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_businessarea",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_business",
-    "path": "/Tables/vfcbc_replication",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_business",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_atsnumber_vw",
-    "path": "/Tables/vfcbc_replication",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_atsnumber_vw",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_application_vw",
-    "path": "/Tables/vfcbc_replication",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_application_vw",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "vfcbc_application",
-    "path": "/Tables/vfcbc_replication",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/vfcbc_replication/vfcbc_application",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_tasks",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_tasks",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_task_types",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_task_types",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_status",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_status",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_stages",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_stages",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_reasons",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_reasons",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_organization_units",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_organization_units",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_district_offices",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_district_offices",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_dispositions",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_dispositions",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_disposition_transactions",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_disposition_transactions",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_disp_trans_tasks",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_disp_trans_tasks",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_disp_trans_statuses",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_disp_trans_statuses",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_available_types",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_available_types",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_available_subtypes",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_available_subtypes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_available_subpurposes",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_available_subpurposes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_available_purposes",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_available_purposes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
-    "name": "ta_available_purpose_incremental",
-    "path": "/Tables/tantalis",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/tantalis_replication/ta_available_purposes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
-      }
-    }
-  },
-  {
     "name": "lexis_replication",
     "path": "/Tables",
     "target": {
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/lexis_replication",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -282,8 +18,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ereferral_replication",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -295,7 +31,7 @@
       "oneLake": {
         "path": "Tables/ats_replication/ats_subregional_offices",
         "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -306,8 +42,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_projects",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -318,8 +54,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_project_client_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -330,8 +66,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_partner_agencies",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -342,8 +78,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_mfr_project_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -354,8 +90,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_enquiry_type_codes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -366,8 +102,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_enquiry_method_codes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -378,8 +114,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_enqry_partner_agency_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -390,8 +126,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_enqry_enqry_type_cd_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -402,8 +138,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_enqry_enqry_mthd_cds_xref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -414,8 +150,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_avg_processing_time_vw",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -426,8 +162,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_authorizations_on_hold",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -438,8 +174,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_authorizations",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -450,8 +186,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_athn_close_reason_codes",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   }
