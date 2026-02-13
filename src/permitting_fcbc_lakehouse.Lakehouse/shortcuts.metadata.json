@@ -30,7 +30,7 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ats_replication/ats_subregional_offices",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
         "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
