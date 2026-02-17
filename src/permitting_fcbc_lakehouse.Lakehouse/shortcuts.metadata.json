@@ -22,5 +22,17 @@
         "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
+  },
+  {
+    "name": "ats_replication",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/ats_replication",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
   }
 ]
