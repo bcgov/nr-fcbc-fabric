@@ -1,5 +1,17 @@
 [
   {
+    "name": "vfcbc_replication",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/vfcbc_replication",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
     "name": "lexis_replication",
     "path": "/Tables",
     "target": {
@@ -18,6 +30,486 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/ereferral_replication",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_renewalnotificationjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_renewalnotificationjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_regionparent",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_regionparent",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_regionmgmtareaxref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_regionmgmtareaxref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_region",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_region",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_purpose",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_purpose",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_protectedland",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_protectedland",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitsuspensionjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitsuspensionjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitstateupdatejob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitstateupdatejob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitstaffxref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitstaffxref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitreinstatementjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitreinstatementjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitexpsectheadxref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitexpsectheadxref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitexpirationjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitexpirationjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitdatacollectionjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitdatacollectionjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitconditionnotifjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitconditionnotifjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitcancelwarningjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitcancelwarningjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitcancellationjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitcancellationjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitapplicationjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitapplicationjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_permitannualfeejob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitannualfeejob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_mgmtareaprotectlandxref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_mgmtareaprotectlandxref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_managementarea",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_managementarea",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_expiredpermitreactivation",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_expiredpermitreactivation",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_draftauthorization",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_draftauthorization",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authtypetransferfeexref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authtypetransferfeexref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authtypetechrevtasktempxref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authtypetechrevtasktempxref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authtypeminorfeexref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authtypeminorfeexref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authtypemajorfeexref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authtypemajorfeexref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authorizationtype",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authorizationtype",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authorizationjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authorizationjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authorization",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authorization",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authobjreppurposedataxref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authobjreppurposedataxref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authobjprimaryactivityxref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authobjprimaryactivityxref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authobjectprotectedlandxref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authobjectprotectedlandxref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authobjectcopermitteexref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authobjectcopermitteexref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authobjectcontactsxref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authobjectcontactsxref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_applicationuseauthtypexref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_applicationuseauthtypexref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_applicationuseapplfeexref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_applicationuseapplfeexref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_amend_renewal_transferjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_amend_renewal_transferjob",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_activitycategory",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_activitycategory",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_activityauthtypexref",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_activityauthtypexref",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_activity",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_activity",
         "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
         "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
