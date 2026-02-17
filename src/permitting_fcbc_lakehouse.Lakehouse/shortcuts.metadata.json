@@ -174,8 +174,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/epups_replication/pu_permitexpirationjob",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -210,7 +210,7 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/epups_replication/pu_permitcancelwarningjob",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
         "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
@@ -270,8 +270,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/epups_replication/pu_managementarea",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -282,8 +282,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/epups_replication/pu_expiredpermitreactivation",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -342,8 +342,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/epups_replication/pu_authtypemajorfeexref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -414,8 +414,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/epups_replication/pu_authobjectprotectedlandxref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
@@ -426,8 +426,8 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/epups_replication/pu_authobjectcopermitteexref",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
+        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
   },
