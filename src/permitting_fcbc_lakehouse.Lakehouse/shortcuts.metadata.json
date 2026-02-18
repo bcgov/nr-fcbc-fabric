@@ -348,18 +348,6 @@
     }
   },
   {
-    "name": "pu_authorization",
-    "path": "/Tables/epups_replication",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/epups_replication/pu_authorization",
-        "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
-        "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
-      }
-    }
-  },
-  {
     "name": "pu_authobjreppurposedataxref",
     "path": "/Tables/epups_replication",
     "target": {
