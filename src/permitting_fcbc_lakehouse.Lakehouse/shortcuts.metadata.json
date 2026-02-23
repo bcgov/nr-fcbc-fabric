@@ -1,5 +1,16 @@
 [
   {
+    "name": "atis_waterjob_combined_mv",
+    "path": "/Tables/wma_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/wma_replication/atis_waterjob_combined_mv",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
     "name": "vfcbc_replication",
     "path": "/Tables",
     "target": {
@@ -20,6 +31,468 @@
         "path": "Tables/lexis_replication",
         "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
         "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "fta_tsa_number_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tsa_number_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_timber_mark",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_timber_mark",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_tfl_number_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tfl_number_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_tenure_term",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tenure_term",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_tenure_status_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tenure_status_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_tenure_file_status_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tenure_file_status_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_tenure_extend_reason_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tenure_extend_reason_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_tenure_application_type_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tenure_application_type_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_tenure_application_state_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tenure_application_state_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_tenure_application_purp_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tenure_application_purp_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_tenure_application",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_tenure_application",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_special_use_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_special_use_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_spec_use_permit",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_spec_use_permit",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_sb_category_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_sb_category_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_sale_method_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_sale_method_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_reforest_declare_type_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_reforest_declare_type_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_prov_forest_use",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_prov_forest_use",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_private_mark_certificate",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_private_mark_certificate",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_org_unit",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_org_unit",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_occupant_licence_to_cut_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_occupant_licence_to_cut_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_mgmt_unit_type_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_mgmt_unit_type_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_licence_to_cut_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_licence_to_cut_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_licence_to_cut",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_licence_to_cut",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_harvesting_authority",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_harvesting_authority",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_harvest_unit_of_measure_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_harvest_unit_of_measure_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_harvest_type_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_harvest_type_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_harvest_sale",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_harvest_sale",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_harvest_auth_status_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_harvest_auth_status_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_forest_mgmt_unit",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_forest_mgmt_unit",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_forest_file_client",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_forest_file_client",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_fire_harvesting_reason_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_fire_harvesting_reason_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_file_type_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_file_type_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_cut_regulation_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_cut_regulation_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_cut_block",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_cut_block",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_block_status_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_block_status_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_associated_tenure",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_associated_tenure",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_allowable_cut_type_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_allowable_cut_type_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_allowable_area_type_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_allowable_area_type_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_aac_file_type_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_aac_file_type_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_aac_allocation_period",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_aac_allocation_period",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_aac_allocation_amount",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_aac_allocation_amount",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "fta_aac_adjustment_reason_code",
+    "path": "/Tables/fta_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/fta_replication/fta_aac_adjustment_reason_code",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
       }
     }
   },
