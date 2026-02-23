@@ -6,8 +6,7 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/wma_replication/atis_waterjob_combined_mv",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
       }
     }
   },
@@ -119,8 +118,7 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/fta_replication/fta_tenure_application_type_code",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
       }
     }
   },
@@ -241,8 +239,7 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/fta_replication/fta_org_unit",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
       }
     }
   },
@@ -451,8 +448,7 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/fta_replication/fta_allowable_area_type_code",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
       }
     }
   },
