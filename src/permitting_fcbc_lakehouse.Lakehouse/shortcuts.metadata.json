@@ -150,8 +150,7 @@
       "type": "OneLake",
       "oneLake": {
         "path": "Tables/tantalis_replication/ta_available_types",
-        "itemId": "201b9b7d-ca11-46b6-81e8-feeba4c99642",
-        "workspaceId": "79dafa8a-b966-4240-80f7-2e9d46baa5c3"
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
       }
     }
   },
