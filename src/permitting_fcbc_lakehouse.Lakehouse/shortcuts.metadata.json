@@ -23,6 +23,171 @@
     }
   },
   {
+    "name": "ta_tasks",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_tasks",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_task_types",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_task_types",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_status",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_status",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_stages",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_stages",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_reasons",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_reasons",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_organization_units",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_organization_units",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_district_offices",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_district_offices",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_dispositions",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_dispositions",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_disposition_transactions",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_disposition_transactions",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_disp_trans_tasks",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_disp_trans_tasks",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_disp_trans_statuses",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_disp_trans_statuses",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_available_types",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_available_types",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_available_subtypes",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_available_subtypes",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_available_subpurposes",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_available_subpurposes",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "ta_available_purposes",
+    "path": "/Tables/tantalis_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/tantalis_replication/ta_available_purposes",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
     "name": "lexis_replication",
     "path": "/Tables",
     "target": {
