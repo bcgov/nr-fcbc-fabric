@@ -188,6 +188,17 @@
     }
   },
   {
+    "name": "rrs_resource_road_client_sdw",
+    "path": "/Tables/rrs_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/rrs_replication/rrs_resource_road_client_sdw",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
     "name": "lexis_replication",
     "path": "/Tables",
     "target": {
