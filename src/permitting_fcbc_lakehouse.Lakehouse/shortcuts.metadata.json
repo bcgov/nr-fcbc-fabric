@@ -1119,6 +1119,17 @@
     }
   },
   {
+    "name": "pu_permitapplicationjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_permitapplicationjob",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
     "name": "pu_permitannualfeejob",
     "path": "/Tables/epups_replication",
     "target": {
@@ -1227,6 +1238,17 @@
     }
   },
   {
+    "name": "pu_authorizationtype",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authorizationtype",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
     "name": "pu_authorizationjob",
     "path": "/Tables/epups_replication",
     "target": {
@@ -1235,6 +1257,17 @@
         "path": "Tables/epups_replication/pu_authorizationjob",
         "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
         "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_authorization",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_authorization",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
       }
     }
   },
@@ -1319,6 +1352,17 @@
         "path": "Tables/epups_replication/pu_applicationuseapplfeexref",
         "itemId": "$(/**/fcbc_env_vars/Shortcuts-lakehouse-id)",
         "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
+      }
+    }
+  },
+  {
+    "name": "pu_amend_renewal_transferjob",
+    "path": "/Tables/epups_replication",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/epups_replication/pu_amend_renewal_transferjob",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
       }
     }
   },
