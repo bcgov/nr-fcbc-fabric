@@ -1,0 +1,34 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "DefaultDestination": {
+      "queryId": "70a0f0fd-705e-4e73-99a1-78f4eda670eb",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Referral Tracker 2025": {
+      "queryId": "7c109f6f-ca31-422e-988b-7995b73d9093",
+      "queryName": "Referral Tracker 2025",
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"1f7baf71-1832-47ee-ba8c-e8f46696fbb5\",\"DatasourceId\":\"15532515-5ed0-4e0f-b4ec-d9be664f173d\"}"
+    },
+    {
+      "path": "https://bcgov.sharepoint.com/",
+      "kind": "SharePoint",
+      "connectionId": "{\"ClusterId\":\"1f7baf71-1832-47ee-ba8c-e8f46696fbb5\",\"DatasourceId\":\"f297dd5c-00e4-44a3-8621-b67cfa8f139e\"}"
+    }
+  ]
+}
