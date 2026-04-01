@@ -1391,17 +1391,6 @@
     }
   },
   {
-    "name": "pu_activity",
-    "path": "/Tables/epups_replication",
-    "target": {
-      "type": "OneLake",
-      "oneLake": {
-        "path": "Tables/epups_replication/pu_activity",
-        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
-      }
-    }
-  },
-  {
     "name": "ats_replication",
     "path": "/Tables",
     "target": {
