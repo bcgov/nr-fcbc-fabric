@@ -1401,5 +1401,170 @@
         "workspaceId": "$(/**/fcbc_env_vars/shortcuts-workspace-id)"
       }
     }
+  },
+  {
+    "name": "apts_ar_systemtable",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_systemtable",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_processes_redacted",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_processes_redacted",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_permittype",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_permittype",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_permittomapsheetxref",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_permittomapsheetxref",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_permittointerestedpartyxref",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_permittointerestedpartyxref",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_permittogeographareaxref",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_permittogeographareaxref",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_permittobordennumberxref",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_permittobordennumberxref",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_permitrelatedfile_redacted",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_permitrelatedfile_redacted",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_permitparticipant_redacted",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_permitparticipant_redacted",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_permitammendmentrequest_redacted",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_permitammendmentrequest_redacted",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_party_redacted",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_party_redacted",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_mapsheet",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_mapsheet",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_bordennumber",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_bordennumber",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_ar_archaeologypermitjob_redacted",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_ar_archaeologypermitjob_redacted",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
+    "name": "apts_amsprocesses_subset",
+    "path": "/Tables/apts_sharing",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/apts_sharing/apts_amsprocesses_subset",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
   }
 ]
