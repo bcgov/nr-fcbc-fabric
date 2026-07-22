@@ -441,6 +441,17 @@
     }
   },
   {
+    "name": "rarn",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/rarn_sharing",
+        "itemReference": "$(/**/fcbc_env_vars/shortcuts-target-lakehouse)"
+      }
+    }
+  },
+  {
     "name": "lexis_replication",
     "path": "/Tables",
     "target": {
